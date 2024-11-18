@@ -625,12 +625,14 @@ header.inner-header .top-header {
 }
 .theme-manage-area .item-part a {
   line-height: 40px;
-  width:130px;
+  width:auto;
   text-align: center;
   border:1px solid #fff;
   text-transform: uppercase;
   font-weight: 600;
   margin-top: 15px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 .theme-manage-area .item-part a:hover {
   background: #fff;
@@ -1496,14 +1498,14 @@ footer .bottom-footer a:hover {
 }
 /*================== Inner Page Main Banner ==============*/
 .inner-page-banner {
-  background: url(../images/inner-page/1.jpg) no-repeat center;
+  background: url(../images/home/web-3.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
   position: relative;
   z-index: 9;
 }
 .inner-page-banner .opacity {
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.5);
   height:100%;
   padding-top: 256px;
   padding-bottom: 90px;
