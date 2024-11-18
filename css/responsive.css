@@ -126,7 +126,7 @@
 
 @media (max-width: 767px) {
     .main-menu-wrapper .logo img {width:60%;}
-    .navbar-toggle {margin: 13px 0;}
+    .navbar-toggle {margin: 13px 10px;}
     .main-menu-wrapper form {top:10px;}
     .theme-manage-area .item1,.course-details-page .course-details-content .sub-text ul.st-requirements-list li {width: 100%;}
     .course-search-option .input-one,.course-search-option .input-two,.course-search-option .input-three {width:50%; margin-bottom: 20px;}
@@ -203,13 +203,15 @@
 }
 
 @media (max-width: 480px) {
-   .main-menu-wrapper .logo {top:60px;left:15px;}
+   .main-menu-wrapper .logo {top: 10px;left: 27px;margin-top: 0!important;}
    .main-menu-wrapper form {position: relative;width:100%;margin: 0 0 20px 0;left:auto;}
    .navbar-collapse,.navbar-collapse.collapse.in {padding-left: 0;padding-right: 0;}
    .main-menu-wrapper.fixed form,header .top-header div.right-side {display: none;}
    .main-menu-wrapper.fixed .logo {top:0;}
    .scroll-top {right:5px; bottom: 15px;}
    .course-v2 .single-course .course-heading ul li {display: block;margin: 0 0 5px 0;}
+   .nav-menu-btn-login{margin:10px 10px 10px 10px!important;}
+   .buy-button{line-height: 40px!important;}
 }
 
 @media (max-width: 450px) {
