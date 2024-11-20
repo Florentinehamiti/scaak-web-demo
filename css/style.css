@@ -592,6 +592,17 @@ header.inner-header .top-header {
   background-color: white!important;
 }
 
+.btn-login-key{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-height: 90px;
+}
+
+.main-menu-wrapper .nav>li>.btn-login-key:before{
+  height: 0!important;
+}
 .nav-menu-btn-login{
   margin: 0px 25px 0 50px !important;
 }
